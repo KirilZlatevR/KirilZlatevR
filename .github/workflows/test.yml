@@ -16,6 +16,8 @@ jobs:
           node-version: 20
       - name: Package lock   
         run: npm init -y
+      - name: Install Mocha
+        run: npm install mocha
       - name: Install Dependencies
         run: npm install
       - name: Run tests
