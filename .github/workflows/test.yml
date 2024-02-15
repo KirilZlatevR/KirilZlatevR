@@ -8,4 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "Test"     
+      - name: Simple Test
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.18
+      - name: Install Dependencies
+        run: npm cl
+      - name: Run tests
+          run: npm test
