@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test_main.py"
+    "test": "mocha /home/runner/work/KirilZlatevR/KirilZlatevR/test_main.py"
   },
   "author": "",
   "license": "ISC"
