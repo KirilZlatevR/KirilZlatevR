@@ -10,7 +10,5 @@ jobs:
     steps:
       - name: Simple Test
         uses: actions/checkout@v2
-      - name: Install Dependencies
-        run: npm cl
       - name: Run tests
         run: npm test_main
