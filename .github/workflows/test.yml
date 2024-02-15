@@ -17,4 +17,4 @@ jobs:
       - name: Install Dependencies
         run: npm cl
       - name: Run tests
-          run: npm test
+          run: npm test_main
