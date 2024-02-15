@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 20
       - name: Package lock   
-        run: rm package-lock.json
+        run: rm package.json
       - name: Install Dependencies
         run: npm install
       - name: Run tests
