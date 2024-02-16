@@ -18,7 +18,5 @@ jobs:
         run: npm init -y
       - name: Install Dependencies
         run: npm install
-      - name: Install Mocha
-        run: sudo npm install -g mocha
       - name: Run tests
         run: npm run test
