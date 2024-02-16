@@ -18,5 +18,7 @@ jobs:
         run: npm init -y
       - name: Install Dependencies
         run: npm install
+      - name: Pytest install
+        run: pip install pytest
       - name: Run tests
         run: npm test
